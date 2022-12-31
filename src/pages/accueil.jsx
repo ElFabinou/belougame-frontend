@@ -1,7 +1,11 @@
+import Navbar from "../components/Navbar";
+
 function accueil() {
     return (
-        <p>Page de démarrage</p>
-    );
+        <>
+            <Navbar></Navbar>
+            <p>Page de démarrage</p>
+        </>);
 }
 
 export default accueil;
